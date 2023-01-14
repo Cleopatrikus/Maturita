@@ -5,4 +5,6 @@
 - Ak stlačil tlačidlo v správnom okamihu, pripočítajú sa mu dva body. 
 - Keď sú hodnoty na kockách rôzne, hráč stratí jeden bod. 
 - V hornej časti obrazovky sa vypisuje aktuálny bodový stav.
+
+
 ![img](img.png)
