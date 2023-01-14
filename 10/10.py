@@ -5,7 +5,7 @@ c.pack()
 
 c.create_text(0, 0, text='', tags='t1')
 
-with open('kod.txt','r') as f:
+with open('ciarovy_kod.txt','r') as f:
     line = f.readlines()[0]
     if line[-1] == '\n':
         line = line[:-1]
