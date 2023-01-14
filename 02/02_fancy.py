@@ -1,10 +1,10 @@
 import os
 from random import randint
 
-if os.path.exists('../s.txt'):
-    os.remove('../s.txt')
+if os.path.exists('s.txt'):
+    os.remove('s.txt')
     
-with open('../s.txt', 'w') as s:
+with open('s.txt', 'w') as s:
     body = 0
     priklady = []
     text = ''
