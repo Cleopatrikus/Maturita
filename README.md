@@ -13,7 +13,9 @@ Vytvorte program, ktorý vyskúša mladšieho súrodenca z malej násobilky.
 * Príklady nám postupne zadáva v textovom režime a prečíta našu odpoveď.
 * Za správnu odpoveď získame 1 bod, ak odpovieme nesprávne 0 bodov.
 * Po skončení riešenia program vypíše počet získaných bodov.
+
 ---
+
 # 3. [Háďa](03)
 V textovom súbore hada.txt máme zapísaný priebeh hier „Háďa". V
     každom riadku je zapísaný priebeh jednej hry. V riadku sú znaky,
@@ -32,7 +34,9 @@ V textovom súbore hada.txt máme zapísaný priebeh hier „Háďa". V
 * zistí počet zapísaných hier v súbore,
 * zistí, koľko krokov mala najdlhšia hra,
 * vytvorí kópiu textového súboru.
+
 ---
+
 # 4. [Kalkulačka](04)
 ##### Vytvorte program ktorý na displeji zobrazí číslo stlačené na tlačidle.
 ![](readme_media/image1.jpg)
@@ -46,9 +50,7 @@ Na križovatke sa pokazil semafor (obsahuje červenú, žltú a zelenú farbu). 
     časových intervaloch svietia rôzne svetlá takto:
 
 -   niekedy svietia všetky tri svetlá,
-
 -   niekedy svieti len zelené alebo len žlté, alebo len červené svetlo,
-
 -   niekedy svieti naraz červené a žlté svetlo.
 
 Ukážka všetkých možností je na obrázku:
@@ -75,6 +77,7 @@ Program má štyri tlačidlá -- modrý, žltý, zelený, červený
 ![](readme_media/image3.jpg)
 
 ---
+
 # 7. [Rovnaké kocky](07)
 ##### Vytvorte hru rovnaké kocky.
 
@@ -88,6 +91,7 @@ aktuálny bodový stav.
 ![](readme_media/image4.jpg)
 
 ---
+
 8.  Vytvorte program -- „šetrič obrazovky", ktorý:
 
 -   nám umožňuje pomocou súčiastky Entry zadávať ľubovoľný text,
