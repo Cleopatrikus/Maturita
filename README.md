@@ -32,14 +32,17 @@ V textovom súbore hada.txt máme zapísaný priebeh hier „Háďa". V
 * zistí počet zapísaných hier v súbore,
 * zistí, koľko krokov mala najdlhšia hra,
 * vytvorí kópiu textového súboru.
-
+---
 # 4. [Kalkulačka](04)
 ##### Vytvorte program ktorý na displeji zobrazí číslo stlačené na tlačidle.
-
 ![](readme_media/image1.jpg)
 
-5.  Vytvorte program Pokazený semafor. Na križovatke sa pokazil semafor
-    (obsahuje červenú, žltú a zelenú farbu). Teraz na ňom v pravidelných
+---
+
+# 5. [Semafor](05)
+
+##### Vytvorte program Pokazený semafor.
+Na križovatke sa pokazil semafor (obsahuje červenú, žltú a zelenú farbu). Teraz na ňom v pravidelných
     časových intervaloch svietia rôzne svetlá takto:
 
 -   niekedy svietia všetky tri svetlá,
@@ -48,15 +51,19 @@ V textovom súbore hada.txt máme zapísaný priebeh hier „Háďa". V
 
 -   niekedy svieti naraz červené a žlté svetlo.
 
-Ukážka všetkých možností je na obrázkoch:
+Ukážka všetkých možností je na obrázku:
 
-![](readme_media/image2.jpg){width="2.283333333333333in"
-height="1.2666666666666666in"}
+![](readme_media/image2.jpg)
 
-6.  Vytvorte program Pyrotechnik.\
-    Veľkými číslami sa na ploche odpočítavajú sekundy (napr. od 60 do 0)
+---
+# 6. [Pyrotechnik](06)
+
+#####  Vytvorte program Pyrotechnik
+
+Veľkými číslami sa na ploche odpočítavajú sekundy (napr. od 60 do 0)
     a v časovom limite treba prestrihnúť správny káblik, aby nevybuchla
-    bomba. Program má štyri tlačidlá -- modrý, žltý, zelený, červený
+    bomba.\
+Program má štyri tlačidlá -- modrý, žltý, zelený, červený
     káblik. Kliknutie na tlačidlo znamená, že sme sa rozhodli
     prestrihnúť daný káblik.\
     Počítač po spustení náhodne vyberie správny káblik a zapamätá si ho.
@@ -65,11 +72,11 @@ height="1.2666666666666666in"}
     sa „Bomba vybuchla" a nemôže stlačiť nič iné, alebo môže stláčať aj
     iné kábliky, kým bombu nezničí.
 
-![Obrázok, na ktorom je text Automaticky generovaný
-popis](readme_media/image3.jpg){width="2.275in"
-height="1.75in"}
+![](readme_media/image3.jpg)
 
-7.  Vytvorte hru rovnaké kocky.
+---
+# 7. [Rovnaké kocky](07)
+##### Vytvorte hru rovnaké kocky.
 
 V hre sa zobrazujú náhodné hodnoty dvoch hracích kociek (1 - 6). Hodnoty
 sa v pravidelných intervaloch menia. Úlohou hráča je zatlačiť tlačidlo
@@ -78,9 +85,9 @@ správnom okamihu, pripočítajú sa mu dva body. Keď sú hodnoty na kockách
 rôzne, hráč stratí jeden bod. V hornej časti obrazovky sa vypisuje
 aktuálny bodový stav.
 
-![](readme_media/image4.jpg){width="2.5381944444444446in"
-height="2.9166666666666665in"}
+![](readme_media/image4.jpg)
 
+---
 8.  Vytvorte program -- „šetrič obrazovky", ktorý:
 
 -   nám umožňuje pomocou súčiastky Entry zadávať ľubovoľný text,
