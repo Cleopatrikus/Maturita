@@ -1,8 +1,11 @@
 #  1. [Pero](01) 
+
 Naprogramujte pohyb grafického pera určeným smerom, ktorý za sebou zanecháva čiaru. 
 Na začiatku má nastavený smer na sever. Smer pohybu meníme pomocou klávesnice (resp. tlačidiel) v štyroch základných 
 smeroch (hore, dole, vpravo, vľavo).
+
 ---
+
 # 2. [Násobilka](02)
 Vytvorte program, ktorý vyskúša mladšieho súrodenca z malej násobilky.
 
