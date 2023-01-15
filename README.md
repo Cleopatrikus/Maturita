@@ -1,44 +1,42 @@
-1.  Naprogramujte pohyb grafického pera určeným smerom, ktorý za sebou
-    zanecháva čiaru. Na začiatku má nastavený smer na sever. Smer pohybu
-    meníme pomocou klávesnice (resp. tlačidiel) v štyroch základných
-    smeroch (hore, dole, vpravo, vľavo).
+#  1. [Pero](01) 
+Naprogramujte pohyb grafického pera určeným smerom, ktorý za sebou zanecháva čiaru. 
+Na začiatku má nastavený smer na sever. Smer pohybu meníme pomocou klávesnice (resp. tlačidiel) v štyroch základných 
+smeroch (hore, dole, vpravo, vľavo).
+---
+# 2. [Násobilka](02)
+Vytvorte program, ktorý vyskúša mladšieho súrodenca z malej násobilky.
 
-2.  Vytvorte program, ktorý vyskúša mladšieho súrodenca z malej
-    násobilky. Program bude mať tieto vlastnosti:
+##### Program bude mať tieto vlastnosti:
 
-Program vygeneruje 10 príkladov na násobenie jednociferných čísel
-a zapíše ich do textového súboru.
-
-Príklady nám postupne zadáva v textovom režime a prečíta našu odpoveď.
-Za správnu odpoveď získame 1 bod, ak odpovieme nesprávne 0 bodov.
-
-Po skončení riešenia program vypíše počet získaných bodov.
-
-3.  V textovom súbore hada.txt máme zapísaný priebeh hier „Háďa". V
+* Program vygeneruje 10 príkladov na násobenie jednociferných čísel
+* a zapíše ich do textového súboru.
+* Príklady nám postupne zadáva v textovom režime a prečíta našu odpoveď.
+* Za správnu odpoveď získame 1 bod, ak odpovieme nesprávne 0 bodov.
+* Po skončení riešenia program vypíše počet získaných bodov.
+---
+# 3. [Háďa](03)
+V textovom súbore hada.txt máme zapísaný priebeh hier „Háďa". V
     každom riadku je zapísaný priebeh jednej hry. V riadku sú znaky,
     ktoré reprezentujú smer pohybu Háďaťa (H - hore, D - dole, L -
     vľavo, P - vpravo). Jeden znak symbolizuje jeden krok v danom smere.
     Napríklad: HHHHDDDDDDLLLLLLLDH.
 
-Ukážka textového súboru:
+##### Ukážka textového súboru:
 
-HHHHDDDDDDLLLLLLLDH
-HHHHHHHHHHHHHHHHHHHHHHLLLLLLLLLLLLLLLLLDDDDDDDDDDDDDDDPPPPPPPPPP
-HHHHHHHHHLLLLLLLLLLLLLLLLLDDDDDDDDDDDDDDDPPPPPPPPPP
+* HHHHDDDDDDLLLLLLLDH
+* HHHHHHHHHHHHHHHHHHHHHHLLLLLLLLLLLLLLLLLDDDDDDDDDDDDDDDPPPPPPPPPP
+* HHHHHHHHHLLLLLLLLLLLLLLLLLDDDDDDDDDDDDDDDPPPPPPPPPP
 
-Vytvorte program, ktorý:
+##### Vytvorte program, ktorý:
 
-zistí počet zapísaných hier v súbore,
+* zistí počet zapísaných hier v súbore,
+* zistí, koľko krokov mala najdlhšia hra,
+* vytvorí kópiu textového súboru.
 
-zistí, koľko krokov mala najdlhšia hra,
+# 4. [Kalkulačka](04)
+##### Vytvorte program ktorý na displeji zobrazí číslo stlačené na tlačidle.
 
-vytvorí kópiu textového súboru.
-
-4.  Vytvorte program ktorý na displeji zobrazí číslo stlačené na
-    tlačidle.
-
-![](readme_media/image1.jpg){width="4.925in"
-height="1.2020833333333334in"}
+![](readme_media/image1.jpg)
 
 5.  Vytvorte program Pokazený semafor. Na križovatke sa pokazil semafor
     (obsahuje červenú, žltú a zelenú farbu). Teraz na ňom v pravidelných
