@@ -95,7 +95,9 @@ aktuálny bodový stav.
 
 ---
 
-8.  Vytvorte program -- „šetrič obrazovky", ktorý:
+# 8. [Šetrič obrazovky](08)
+
+##### Vytvorte program -- „šetrič obrazovky ktorý:
 
 -   nám umožňuje pomocou súčiastky Entry zadávať ľubovoľný text,
 
@@ -110,7 +112,11 @@ aktuálny bodový stav.
 
 -   pri kliknutí na plochu obsah obrazovky zmaže.
 
-9.  Vytvorte program Titulky do televízie, ktorý:
+---
+
+# 9. Titulky
+
+##### Vytvorte program Titulky do televízie, ktorý:
 
 -   bude v pravidelných intervaloch kresliť na obrazovke text zadaný v
     Entry,
@@ -120,8 +126,11 @@ aktuálny bodový stav.
 
 -   text po zmiznutí na ľavej strane opäť ukáže na pravej strane.
 
-10. Vytvorte program Čiarový kód, ktorý z textového súboru prečíta
-    čiarový kód a vykreslí ho na obrazovku.
+---
+
+# 10. [Čiarový kód](10)
+
+##### Vytvorte program Čiarový kód, ktorý z textového súboru prečíta čiarový kód a vykreslí ho na obrazovku.
 
 Náš čiarový kód obsahuje osemciferné čísla, ktoré nezačínajú nulou.
 Každá číslica je znázornená čiarou, ktorej hrúbka je rovná hodnote
@@ -131,16 +140,19 @@ má šírku 10 pixelov). Medzi prvou a poslednou čiarou je zobrazený aj
 číselný kód, teda druhá až siedma čiara nezasahujú do číselného kódu.
 
 ![Obrázok, na ktorom je text Automaticky generovaný
-popis](readme_media/image5.jpg){width="3.683333333333333in"
-height="1.1017399387576552in"}
+popis](readme_media/image5.jpg)
 
-11. V textovom súbore meteo_stanice.txt sú uložené denné merania z
-    meteorologických staníc z celého Slovenska. Informácia z každej
-    stanice je v jednom riadku.
+---
 
-Riadok obsahuje: kód_stanice (3 znaky), dátum v tvare rrrr.mm.dd, čas v
-tvare hh:mm, znamienko teploty, teplotu, typ oblačnosti (JJ -- jasno, PO
--- polooblačno, PJ -- polojasno, OO -- oblačno).
+# 11. [Meteo stanice](11)
+V textovom súbore meteo_stanice.txt sú uložené denné merania z meteorologických staníc z celého Slovenska. Informácia z každej stanice je v jednom riadku.
+
+Riadok obsahuje: 
+- kód_stanice (3 znaky), dátum v tvare rrrr.mm.dd, 
+- čas v tvare hh:mm,
+- znamienko teploty, 
+- teplotu, 
+- typ oblačnosti (JJ -- jasno, PO -- polooblačno, PJ -- polojasno, OO -- oblačno).
 
 Ukážka vstupného súboru:
 
@@ -150,15 +162,16 @@ M07 2017.05.10 06:00 +08,2 JJ
 
 M04 2017.05.10 06:00 --01,5 OO
 
-Vytvorte program, ktorý:
+##### Vytvorte program, ktorý:
 
-zistí počet meraní,
+* zistí počet meraní,
+* zistí a vypíše najvyššiu nameranú teplotu,
+* zistí a vypíše priemernú teplotu všetkých staníc.
 
-zistí a vypíše najvyššiu nameranú teplotu,
+---
 
-zistí a vypíše priemernú teplotu všetkých staníc.
-
-12. Vytvorte program, v ktorom môžeme kresliť na mieste kliknutia myši
+# 12. [Obec](12) 
+Vytvorte program, v ktorom môžeme kresliť na mieste kliknutia myši
     značku začiatku alebo konca obce/mesta. V programe sú dve súčiastky
     entry. Do jednej zadávame názov obce a do druhej zadávame, či sa má
     nakresliť značka začiatku alebo konca. Keď do druhého entry napíšeme
@@ -166,18 +179,22 @@ zistí a vypíše priemernú teplotu všetkých staníc.
     programe bude aj tlačidlo, ktoré zmaže grafickú plochu. Značku
     nakreslite podľa obrázku:
 
-![](readme_media/image6.jpg){width="2.9833333333333334in"
-height="2.8in"}
+![](readme_media/image6.jpg)
 
-13. Katka sa rozhodla, že si vytvorí program, v ktorom sa môže hrať
+---
+
+# 13. Piškvorky
+Katka sa rozhodla, že si vytvorí program, v ktorom sa môže hrať
     piškvorky a nemusí používať papier. Zatiaľ vie naprogramovať len
     kreslenie plochy a útvarov. V programe napísala aj ovládanie hry.
     Vytvorte takýto program.
 
-![](readme_media/image7.jpeg){width="3.809646762904637in"
-height="2.1416666666666666in"}
+![](readme_media/image7.jpeg)
 
-14. V textovom súbore objednane_jedla.txt sú uložené informácie o
+---
+
+# 14. Objednané jedlá
+V textovom súbore objednane_jedla.txt sú uložené informácie o
     objednaných jedlách v školskej jedálni jednotlivými stravníkmi na
     nasledujúci deň. Informácia o jednom výbere stravníka je v jednom
     riadku. Riadok obsahuje číselný kód stravníka, ktorý je oddelený
@@ -185,17 +202,12 @@ height="2.1416666666666666in"}
     označujúci farebné označenie jedla (z - zelená, c - červená, m -
     modrá, o - oranžová).
 
-Vytvorte program, ktorý:
+##### Vytvorte program, ktorý:
 
-z textového súboru zistí celkový počet objednaných jedál,
-
-spočíta počet jednotlivých jedál a vypíše ich počty (jednotlivé farby
-zvlášť),
-
-zistí, či si niektoré jedlo (jedlá) objednalo menej ako 20 ľudí,
-
-ak si každé jedlo objednalo dostatok stravníkov, vypíše nám o tom
-program informáciu.
+* z textového súboru zistí celkový počet objednaných jedál,
+* spočíta počet jednotlivých jedál a vypíše ich počty (jednotlivé farby zvlášť),
+* zistí, či si niektoré jedlo (jedlá) objednalo menej ako 20 ľudí,
+* ak si každé jedlo objednalo dostatok stravníkov, vypíše nám o tom program informáciu.
 
 Ukážka textového súboru:
 
@@ -215,24 +227,24 @@ Ukážka textového súboru:
 
 96 z
 
-15. Vytvorte program, ktorý bude kresliť noty (celé) na notovej osnove
+# 15. Noty
+Vytvorte program, ktorý bude kresliť noty (celé) na notovej osnove
     nasledovne:
 
-na ploche sa nakreslí notová osnova,
+* na ploche sa nakreslí notová osnova,
 
-v textovom súbore noty.txt je v jednom riadku uložená postupnosť nôt
+* v textovom súbore noty.txt je v jednom riadku uložená postupnosť nôt
 (použité sú len tieto: c, d, e, f, g, a, h) -- program prečíta prvú notu
-a zobrazí ju na osnove,
+ a zobrazí ju na osnove,
+ 
+* postupne prečíta všetky noty a zapíše ich na osnovu,
 
-postupne prečíta všetky noty a zapíše ich na osnovu,
+Ukážka textového súboru: **cdefgahcdahdecdefgahhagfdec**
 
-Ukážka textového súboru: cdefgahcdahdecdefgahhagfdec
-
-Napríklad pre postupnosť cdefgahhagfed sa nakreslí:
+##### Napríklad pre postupnosť cdefgahhagfed sa nakreslí:
 
 ![Obrázok, na ktorom je text Automaticky generovaný
-popis](readme_media/image8.jpg){width="3.716666666666667in"
-height="1.15in"}
+popis](readme_media/image8.jpg)
 
 16. Vytvorte program, ktorý bude mať tieto vlastnosti:\
     - z ľavého okraja sa pohybuje vo vodorovnom smere modrá gulička,\
